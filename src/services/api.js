@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://dacby-backend-5822.onrender.com/api',
 });
 
 // Add a request interceptor to include JWT in headers
